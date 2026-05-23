@@ -7,3 +7,8 @@ function multiplyUnsafe(x, y) {
   // intentional weakness: no type validation
   return x * y;
 }
+
+function thirdHelper(z) {
+  // newly added
+  return z;
+}
